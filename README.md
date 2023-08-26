@@ -4,11 +4,15 @@ This Python script is designed to predict stock prices using Convolutional Neura
 # Dataset
 Paypal Holdings Inc. from Yahoo.finance
 
-#Data Preprocessing
+# Data Preprocessing
+
 -Drop irrelevant columns like Date, Close, Adj Close, and Volume.
+
 -Scale the feature data using Min-Max scaling.
+
 -Split the data into 80% training and 20% testing sets.
-$Model Architecture
+
+# Model Architecture
 The model uses a Conv1D neural network architecture with the following layers:
 
   -Conv1D layer with 32 filters and kernel size 3
